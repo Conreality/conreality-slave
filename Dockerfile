@@ -3,7 +3,7 @@ FROM alpine:edge
 LABEL maintainer="Arto Bendiken <arto@conreality.org>"
 
 RUN echo '@testing http://dl-cdn.alpinelinux.org/alpine/edge/testing' >> /etc/apk/repositories
-RUN apk add --no-cache erlang su-exec
+RUN apk add --no-cache erlang lua5.3-libs opus postgresql-client postgresql-libs su-exec
 
 ENV TZ="UTC"
 ENV LANG="en_US.UTF-8"
