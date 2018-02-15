@@ -13,3 +13,11 @@ Conreality Slave Daemon
 |
 
 https://wiki.conreality.org/Slave
+
+Prerequisites
+=============
+
+Runtime Prerequisites
+---------------------
+
+* Erlang 20.2+
