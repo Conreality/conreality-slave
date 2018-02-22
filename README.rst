@@ -6,7 +6,7 @@ Conreality Slave Daemon
    :alt: Project license
    :target: https://unlicense.org/
 
-.. image:: https://img.shields.io/travis/conreality/conreality-slave/slave.svg
+.. image:: https://img.shields.io/travis/conreality/conreality-slave/master.svg
    :alt: Travis CI build status
    :target: https://travis-ci.org/conreality/conreality-slave
 
@@ -21,3 +21,4 @@ Runtime Prerequisites
 ---------------------
 
 * Erlang 20.2+
+* OpenCV 3+
