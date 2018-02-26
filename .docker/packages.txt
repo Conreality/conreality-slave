@@ -1,3 +1,4 @@
+bluez
 opus
 postgresql-client
 postgresql-libs
