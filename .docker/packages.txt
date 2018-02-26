@@ -1,9 +1,3 @@
-dbus
-erlang
-lua5.3-libs
 opus
 postgresql-client
 postgresql-libs
-s6
-s6-rc
-su-exec
