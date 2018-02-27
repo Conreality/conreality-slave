@@ -33,10 +33,13 @@ distclean: clean
 
 mostlyclean: clean
 
-shell: .built
+boot: .built
+	$(DOCKER) run --rm -it -p22:22/tcp $(IMAGE) init
+
+exec-shell: .built
 	$(DOCKER) run --rm -it $(IMAGE) /bin/sh
 
 .PHONY: check uninstall clean distclean mostlyclean
-.PHONY: shell
+.PHONY: boot exec-shell
 .SECONDARY:
 .SUFFIXES:
