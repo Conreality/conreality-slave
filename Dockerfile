@@ -8,6 +8,8 @@ RUN /root/install.sh /root/packages.txt
 COPY .docker/configure.sh /root/
 RUN /root/configure.sh
 
+COPY .docker/etc /etc
+
 COPY .docker/entrypoint.sh /tmp/
 ENTRYPOINT ["/tmp/entrypoint.sh"]
 

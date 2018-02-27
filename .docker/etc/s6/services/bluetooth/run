@@ -1,0 +1,2 @@
+#!/bin/execlineb -WP
+/usr/lib/bluetooth/bluetoothd -n

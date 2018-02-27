@@ -20,6 +20,7 @@ Prerequisites
 Runtime Prerequisites
 ---------------------
 
+* BlueZ 5.48
 * D-Bus 1.10+
 * Erlang 20.2+
 * OpenCV 3+
